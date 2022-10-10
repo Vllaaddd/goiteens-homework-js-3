@@ -19,7 +19,7 @@ if(age <= 16){
 const name = 'Vlad';
 const secondName = 'Honcharuk';
 
-if(name.length >= 4 || secondName.length > 5){
+if(name.length >= 4 && secondName.length > 5){
     console.log(name.length + secondName.length)
 }else{
     console.log('Упс');
